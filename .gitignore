@@ -1,23 +1,53 @@
-# Compiled class file
-*.class
+#########################################################################################
+##  Project    : Collect of various scripts for working with EDA-tools (ASIC/FPGA/etc) ##
+##  Designer   : Dmitry Murzinov (kakstattakim@gmail.com)                              ##
+##  Link       : https://github.com/iDoka/eda-scripts                                  ##
+##  Description: .gitignore                                                            ##
+##  Usage      : just rename or add contain to .gitignore                              ##
+##  License    : MIT                                                                   ##
+#########################################################################################
 
-# Log file
+## log files
 *.log
+*.rpt
 
-# BlueJ files
-*.ctxt
+## bitstream
+*.bit
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+## netlist
+*.edf
+*.edif
+*.vn
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+## SDF
+*.sdf
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+###### for Xilinx Vivado|ISE
+.Xil/
+.hbs/
+.cache/
+xsim.dir/
+
+worklib.tb.wdb
+fsm_encoding.os
+tab_*/
+webtalk.jou
+webtalk.log
+webtalk_*.jou
+webtalk_*.log
+vivado.jou
+vivado.log
+vivado_pid*.str
 hs_err_pid*
+xelab.*
+xsim.*
+xvlog.*
+*.cache
+*.sim
+*.runs
+*.hw
+*.backup.*
+*.debug
+
+
+unisims
