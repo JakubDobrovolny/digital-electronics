@@ -5,7 +5,7 @@
 1. Equations of all three versions of logic function f(c,b,a):
 
 
-   ![Logic function](funkce.png)
+   ![Logic function](zadani.png)
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
@@ -22,14 +22,14 @@ end architecture dataflow;
 
    |**c**|**b**|**a**|**f_ORIG**|**f_(N)AND**|**f_(N)OR**|
    | :-: | :-: | :-: | :-: | :-: | :-: |
-   |  0  |  0  |  0  |  0  |  1  |  0  |
+   |  0  |  0  |  0  |  0  |  0  |  0  |
    |  0  |  0  |  1  |  1  |  1  |  1  |
-   |  0  |  1  |  0  |  1  |  1  |  1  |
-   |  0  |  1  |  1  |  1  |  0  |  1  |
-   |  1  |  0  |  0  |  1  |  1  |  0  |
+   |  0  |  1  |  0  |  0  |  0  |  0  |
+   |  0  |  1  |  1  |  0  |  0  |  0  |
+   |  1  |  0  |  0  |  0  |  0  |  0  |
    |  1  |  0  |  1  |  1  |  1  |  1  |
-   |  1  |  1  |  0  |  1  |  1  |  1  |
-   |  1  |  1  |  1  |  0  |  0  |  1  |
+   |  1  |  1  |  0  |  0  |  0  |  0  |
+   |  1  |  1  |  1  |  0  |  0  |  0  |
 
 ### Distributive laws
 
